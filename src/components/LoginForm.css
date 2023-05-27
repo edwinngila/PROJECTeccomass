@@ -1,0 +1,25 @@
+.space{
+    width: 100px;
+    height: 40px;
+}
+.heights{
+    height: 600px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.buttons{
+    background-color: #281148;
+}
+.icons1{
+    color: #3e5a96;
+}
+.icons3{
+    color: #1196f5;
+}
+.icons2{
+    color: #d84f3f;
+}
+.space2{
+    width: 300px;
+    height: 40px;
+}
