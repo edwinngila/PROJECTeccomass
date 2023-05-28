@@ -2,6 +2,7 @@ import { Button, Container, Form, FormControl, FormGroup, FormLabel } from "reac
 import "../components/LoginForm.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook,faGithub,faGoogle,faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 let Login=()=>{
     return(
         <div>
@@ -71,7 +72,7 @@ let Login=()=>{
                         </div>
                         <div className="col-8">
                             <div className="space"></div>
-                            <div>if you have no account:<span style={{color:"blue"}}>signup?</span></div>
+                            <div>if you have no account:<Link to="/signup">signup</Link></div>
                         </div>
                 </div>
                </Container>

@@ -1,4 +1,16 @@
 .sighn{
-    background-color: #dfd8d8;
-    height: 570px;
+    background-color: #f1c60a;
+    min-height: 570px;
+}
+.sign2{
+    width: 5px;
+    height: 60px;
+}
+.sign3{
+    width: 5px;
+    height: 30px;
+}
+.sign4{
+    width: 5px;
+    height: 30px;
 }
